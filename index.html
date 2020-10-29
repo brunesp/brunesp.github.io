@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap" rel="stylesheet"> 
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="style.css">
+    <title>Cálculo IMC</title>
+</head>
+<body>
+   <div class="container">
+        <form id="form-IMC" action="#" onsubmit="return calcular()">
+            <h3>Cálculo IMC</h3>
+        <input id="sex" type="radio" name="sexo" value="feminino" required>Feminino
+        <input id="sex" type="radio" name="sexo" value="masculino" required>Masculino
+        <br>
+        <div id="input">
+        Idade<input type="number" placeholder="23 anos" id="idade" required style="text-align: center;">
+        <br>
+        Altura<input type="number" placeholder="153 cm" id="altura" required style="text-align: center;">  
+        <br>    
+        Peso<input type="number" placeholder="50 kg" id="peso" required style="text-align: center;">
+        </div> 
+        <br>
+        <input type="submit" value="Calcular" id="IMC" required>
+    </form>
+
+    <div id="Final">
+        <p>IMC Resultado</p>
+        <p id="txtIMC">            
+        </p>
+        <br>
+        <p>Peso Ideal</p>
+        <p id ="txtIdeal">
+
+        </p>
+    </div>
+</div>
+   
+    <script src="main.js">
+    </script>
+    
+
+</body>
+</html>

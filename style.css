@@ -1,0 +1,84 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    background-image: linear-gradient( #FF0099,#493240);
+    color: #fff; 
+    overflow: hidden;
+}
+    html {
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: column;
+        -webkit-flex-direction: column;
+        height: 100%;
+      }
+       
+ 
+#form-IMC{
+  margin: 100px 50px 0 150px ;
+  width: 300px;
+  height: auto;
+  padding: 45px;
+  border-radius: 10px;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color:#8f0056;
+  text-align: center; 
+  display: block;
+}
+
+#idade{
+    padding: 5px;   
+    width: 100px;
+    align-items: center;
+    margin: 5px 0 5px 23px;
+}
+ #peso{
+    padding: 5px;   
+    width: 100px;
+    align-items: center;
+    margin: 5px 0 5px 30px;
+}
+#altura{
+    padding: 5px;   
+    width: 100px;
+    align-items: center;
+    margin: 5px 0 5px 20px;
+}
+#input{
+    padding: 0 50px;
+}
+#sex{
+    margin: 25px;
+}
+#IMC{
+    border:2px solid white;
+    margin: 5px 50px 5px 60px;
+    background-color: transparent;
+    color:#fff;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    padding: 10px 60px;
+    cursor: pointer;
+}
+
+h3{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+ 
+#IMC:hover{
+    transform: translate(0, -10px);
+   
+}
+#Final{
+    margin: -380px 100px 0 700px;
+    width: 300px;
+    height: auto;
+    padding: 45px;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color:#8f0056;
+    text-align: center; 
+    display: block;
+  }
